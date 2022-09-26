@@ -1,0 +1,32 @@
+Auto Rename Tag Extension  -- Auto rename paired HTML/XML tag
+
+shift + alt + f -- format document
+
+right click - change all occurences
+
+more than one react app -- why not ? --> apps use ports when they run on localhost & bydefault a react.js app run on port 3000 , express js app also run on same port 3000.
+                           if you were to run two apps simultaneously there would be conflict, you need to change one of them.
+                           In react the easy way to alter the port number is by specifying the port number in .env file or package.json file
+
+                           for package.json file-- under scripts - start - add - "set PORT=3001 && " to starting.
+                           for .env file -- jusr write "PORT=3001" in .env file.
+        
+ctrl + j -- down terminal bar.
+
+
+bootstrap  class - text-light 
+
+ctrl + u --> undo cursor position
+
+setBtnText = 'Enable Dark Mode'     or    setBtnText('Enable Dark Mode')
+
+const togglemode = () => {
+      mode=="light" ? setMode("dark") : setMode("light")
+   } 
+   togglemode={togglemode}
+   (props)
+   className={`text-${props.mode}`}
+
+   instead 
+
+   className={`text-${props.mode=="light" ? setMode("dark") : setMode("light")}`}

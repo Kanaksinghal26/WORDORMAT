@@ -4,7 +4,17 @@ import './Footer.css'
 const Footer = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-light footer" >
+        <div class="alert alert-primary" role="alert">
+            <span>Design and Develop by (with references) </span>
+            <span> KANAK SINGHAL !</span>
+        </div>
+
+        {/* <div class="alert alert-success">
+  <strong>Success!</strong> Indicates a successful or positive action.
+</div> */}
+            {/* <nav className="navbar navbar-expand-lg bg-light footer" >
+
+                
                 <div className="container-fluid">
                     <span>Design and Develop by (with references) KANAK SINGHAL</span>
                     
@@ -33,9 +43,18 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </nav> */}
         </>
     )
 }
 
 export default Footer
+
+// #navbarNav{
+//     position: absolute;
+//     right: 0;
+// }
+
+// .footer{
+//     margin-top: 10vh;
+// }
